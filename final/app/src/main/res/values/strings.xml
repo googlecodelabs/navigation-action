@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NavAction Codelab</string>
+
+    <string name="sun_title">Sun</string>
+    <string name="moon_title">Moon</string>
+    <string name="earth_title">Earth</string>
+    <string name="settings_title">Settings</string>
+
+    <string name="action_edit">Edit</string>
+    <string name="action_edit_todo">TODO: Implement Editing</string>
+    <string name="action_share">Share</string>
+    <string name="action_share_todo">TODO: Implement Sharing</string>
+</resources>
