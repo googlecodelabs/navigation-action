@@ -38,7 +38,6 @@ public class MainActivity extends WearableActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // TODO:NAV Uncomment the following block to add a navigation drawer
         mWearableNavigationDrawer =
                 (WearableNavigationDrawer) findViewById(R.id.top_navigation_drawer);
         mWearableNavigationDrawer.setAdapter(new NavigationAdapter(this));
@@ -49,7 +48,6 @@ public class MainActivity extends WearableActivity {
                 .replace(R.id.fragment_container, sunSection)
                 .commit();
 
-        // TODO:ACTIONS Add code for WearableActionDrawer here
         mWearableActionDrawer = (WearableActionDrawer) findViewById(R.id.bottom_action_drawer);
         mWearableActionDrawer.setOnMenuItemClickListener(
                 new WearableActionDrawer.OnMenuItemClickListener() {
