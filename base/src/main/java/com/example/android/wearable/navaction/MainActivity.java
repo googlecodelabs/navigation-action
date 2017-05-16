@@ -53,4 +53,6 @@ public class MainActivity extends WearableActivity {
 
         // TODO:ACTIONS Add code for WearableActionDrawer here.
     }
+
+    // TODO:NAV Add NavigationAdapter here.
 }
